@@ -1,7 +1,5 @@
-# Web-Crawler-System-Design
 
-
-## Web Crawler Design Outline:
+## Web Crawler System Design Outline:
 
 ### 1. RANKING AND INDEXING
 
