@@ -124,7 +124,7 @@ Implement data partitioning and sharding to manage large datasets acroos multipl
 
 Store older or less frequently accessed data in compressed formats or move it to archival storage to save space and reduce costs.
 
-### 8. Monitoring and Reporting
+### 8. MONITORING AND REPORTING
 
 #### Objective: 
 Efficiently store and manage the vast amount of data collected by the crawler
@@ -139,7 +139,7 @@ Log errors encountered during the crawling process, such as failed requests, par
 Collect and analyze performance metrics to optimize crawling strtegies, such as adjusting the depth of crawling, updating schedules, or tuning the crawler's configuration.
 
 
-### 9. Compliance and Ethics
+### 9. COMPLIANCE AND ETHICS
 
 #### Objective:
 Ensure the crawler operates within legel and ethical bounderies.
@@ -154,7 +154,7 @@ Avoid collecting sensitive or personally identifiable information unless explici
 Be trasparent about your crawling activities. Consider informing webmasters or providing an option for them to opt-out if they do not wish to have their site crawled.
 
 
-### 10. Adaptive Crawling and ML integration
+### 10. ADAPTIVE CRAWLING AND ML INTEGRATION
 
 #### Objective:
 Enhance the crawlers efficieny and intelligence using Machine Learning.
