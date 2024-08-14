@@ -46,7 +46,6 @@ Efficiently discover and manage URLS to optimize the crawling process.
 
 Start with a list of seed URLs to initiate the crawling process. These should be well-known, authoritative websites in the target domain
 
-
 #### Dynamic URL Discovery:
 
 As the crawler navigates through pages, extract new URLs dynamically and add them to the URL frontier. This helps in expanding the crawl coverage
@@ -116,5 +115,60 @@ Efficiently store and manage the vast amount of data collected by the crawler.
 #### Database Selection:
 
 Choose appropriate storage solutions based on the nature of the data. For instance, use NoSQL DB like mongodb for unstructured data or relational db like MYSQL for structured content.
+
+#### Data Partitioning
+
+Implement data partitioning and sharding to manage large datasets acroos multiple servers, ensuing scability and quick access
+
+#### Archiving and Compression
+
+Store older or less frequently accessed data in compressed formats or move it to archival storage to save space and reduce costs.
+
+### 8. Monitoring and Reporting
+
+#### Objective: 
+Efficiently store and manage the vast amount of data collected by the crawler
+
+#### Real-Time Monitoring:
+Implement real time monitoring dashboards to track the crawler's activity, including the number of pages crawled, error rates, responsive times, and throughput.
+
+#### Error logging:
+Log errors encountered during the crawling process, such as failed requests, parsing errors, or storage issues. Use these logs to diagonse and fix issues promptly.
+
+#### Performance
+Collect and analyze performance metrics to optimize crawling strtegies, such as adjusting the depth of crawling, updating schedules, or tuning the crawler's configuration.
+
+
+### 9. Compliance and Ethics
+
+#### Objective:
+Ensure the crawler operates within legel and ethical bounderies.
+
+#### Legal Compliance: 
+Make sure that the crawling activities comply with legal regualtions, including data protection laws(e.g GDPR) and copyright laws.
+
+#### User Privacy:
+Avoid collecting sensitive or personally identifiable information unless explicitly required and permitted. Implement anonymization techniques where applicable.
+
+#### Ethical Crawling:
+Be trasparent about your crawling activities. Consider informing webmasters or providing an option for them to opt-out if they do not wish to have their site crawled.
+
+
+### 10. Adaptive Crawling and ML integration
+
+#### Objective:
+Enhance the crawlers efficieny and intelligence using Machine Learning.
+
+#### Adaptive Crawling:
+Using ML models to predict the relevence or importance of a page before crawling it. This can optimize resources by prioritizing high-volume content.
+
+#### Content Classification:
+Implement classifier that categorize content on the fly, enabling the crawler to focus on specific types of content (E.g. news, blog, academic papers).
+
+#### Continuous Learning:
+ Continuously train models on new data to adapt to changes in web content and crawling strategies, improving accuracy and performance over time.
+
+
+
 
         
