@@ -3,7 +3,7 @@
 
 ## Web Crawler Design Outline:
 
-1. RANKING AND INDEXING
+### 1. RANKING AND INDEXING
 
 Objective:
 
@@ -22,7 +22,7 @@ Indexing:
     Implement inverted indexing, where each word in the document is mapped to its location in the index, allowing for efficient search operations
     consider building separate indices for different content types(eg: text, images, videos) to optimize search performance
 
-2. FIXED SCHEDULE TO UPDATE THE INDEX
+### 2. FIXED SCHEDULE TO UPDATE THE INDEX
 
 Objective:
 
@@ -38,7 +38,7 @@ Incremental Indexing:
     Instead of rebuilding the entire index with every crawl, implement incremental indexing, where only the changes (new or updated content) are added to the index. This approach saves time and computational Resources.
     Monitor changes in content (Eg: content hash or last modified date) to decide whether an update to the index is necessary
 
-3. URL DISCOVERY AND MANAGEMENT
+### 3. URL DISCOVERY AND MANAGEMENT
 
 Objective:
 
@@ -59,7 +59,7 @@ Duplicate Handling:
 
 Implement mechanisms to avoid revisiting the same URLs (duplicates) by maintaining a history of crawled URLs or using a bloom filter.
 
-4. POLITENESS AND THROTTLING
+### 4. POLITENESS AND THROTTLING
 
         
 
@@ -85,7 +85,7 @@ Politeness Delays:
 
 Introduce random delays between requests to avoid patterns that might be flagged as aggressive crawling behavior.
 
-5. CONTENT PARSING AND EXTRACTION
+### 5. CONTENT PARSING AND EXTRACTION
 
 Objective:
 
@@ -107,7 +107,7 @@ Handling Multimedia:
 
 Extract and store multimedia content like images, videos and embedded objects. Ensure that media files are stored in a format that allows for efficient  retrieval and processing.
 
-6. SCALABILITY AND DISTRIBUTED CRAWLING
+### 6. SCALABILITY AND DISTRIBUTED CRAWLING
 
 Objective:
 
@@ -127,7 +127,7 @@ Fault Tolerance:
 
 Incorporate fault tolerance mechanisms to handle server failures, network issues, and timeouts. This may involve retry logic, backup systems and stateful checkpoints.
 
-7. DATA STORAGE AND MANAGEMENT
+### 7. DATA STORAGE AND MANAGEMENT
 
 Objective:
 
