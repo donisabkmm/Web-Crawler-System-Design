@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:129.0) Gecko/20100101 Firefox/129.0" version="24.7.7">
   <diagram name="Page-1" id="5bWgAJpQAsmb562W-yM8">
-    <mxGraphModel dx="989" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2390" dy="1303" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,13 +14,13 @@
           <mxGeometry x="378" y="90" width="540" height="180" as="geometry" />
         </mxCell>
         <mxCell id="-3w2v2XRho6IU62ZGNhJ-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="390" y="270" width="1241" height="860" as="geometry" />
+          <mxGeometry x="399.5" y="270" width="1241" height="860" as="geometry" />
         </mxCell>
         <mxCell id="9_FR494DGHJ2YAEM96bm-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font color=&quot;#006600&quot;&gt;Implementation of Politeness&amp;nbsp;&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Respect Robots.txt&lt;/li&gt;&lt;li&gt;Rate Limiting&lt;/li&gt;&lt;li&gt;Concurrency&amp;nbsp; Management&lt;/li&gt;&lt;li&gt;Respect Crawl Delay Directives&lt;/li&gt;&lt;li&gt;Avoid Crawling Sensitive Contents&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="930" y="90" width="330" height="180" as="geometry" />
         </mxCell>
         <mxCell id="9_FR494DGHJ2YAEM96bm-12" value="&lt;b&gt;&lt;font color=&quot;#006633&quot; style=&quot;font-size: 24px;&quot;&gt;High Level System Design&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="390" y="280" width="1220" height="30" as="geometry" />
+          <mxGeometry x="410" y="280" width="1220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9_FR494DGHJ2YAEM96bm-13" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font color=&quot;#666600&quot; style=&quot;font-size: 18px;&quot;&gt;Key Components&lt;/font&gt;&lt;br&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;Crawler Layer =&amp;gt; Parallel Crawler =&amp;gt; incremental Crawler=&amp;gt; Focused Crawler&lt;/li&gt;&lt;li&gt;Data Processing Layer =&amp;gt; Preprocessing =&amp;gt; NLP&lt;/li&gt;&lt;li&gt;Storage Layer =&amp;gt; Structured Storage, Unstructured Storage&lt;/li&gt;&lt;li&gt;API Layer =&amp;gt; RestAPI,&amp;nbsp; GraphQL (Allows clients to request specific data based on needs)&lt;/li&gt;&lt;li&gt;UI =&amp;gt; Interface for adding, Removing and a managing Crawled Sources&lt;/li&gt;&lt;li&gt;Security Layer =&amp;gt; JWT based Authentication&lt;/li&gt;&lt;li&gt;Monitoring and Maintenance Layer =&amp;gt; Grafana, Prometheus =&amp;gt; Queue Management RabbitMQ | Celery&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="410" y="340" width="480" height="200" as="geometry" />
